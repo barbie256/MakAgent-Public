@@ -1,0 +1,18 @@
+# Secrets and local environments
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend
+node_modules/
+build/
+
+# Local model artifacts and vector indexes
+backend/models/
+backend/rag/storage/
